@@ -1,0 +1,27 @@
+[package]
+name = "list-lite"
+version = "0.1.0"
+edition = "2024"
+license = "LicenseRef-Strawberry-Source-Available-1.0"
+publish = false
+authors = ["Strawberry Interactive LLC"]
+description = "Player list: /list shows who is online, by rank."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+sp-lang = { path = "libs/sp-lang" }
+sp-ranks = { path = "libs/sp-ranks" }
+strawberry-plugin-api = { version = "=0.2.2", registry = "strawberry" }
+
+# A repository of its own, not a member of a larger workspace.
+[workspace]
+members = ["libs/sp-lang", "libs/sp-ranks"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"

@@ -1,0 +1,8 @@
+description=Liste des joueurs : /list montre qui est en ligne, par rang.
+permission_use=Utiliser /list.
+command_list=Afficher qui est en ligne.
+no_permission=Vous n'avez pas la permission d'utiliser cette commande.
+online={0} joueurs en ligne sur {1}
+players=Joueurs
+group={0} : {1}
+more=et {0} de plus

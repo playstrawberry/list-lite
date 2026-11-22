@@ -1,0 +1,8 @@
+description=Lista de jugadores: /list muestra quién está conectado, por rango.
+permission_use=Usar /list.
+command_list=Mostrar quién está conectado.
+no_permission=No tienes permiso para usar ese comando.
+online={0} de {1} jugadores conectados
+players=Jugadores
+group={0}: {1}
+more=y {0} más

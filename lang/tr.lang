@@ -1,0 +1,8 @@
+description=Oyuncu listesi: /list kimlerin online olduğunu rank'a göre gösterir.
+permission_use=/list komutunu kullan.
+command_list=Kimlerin online olduğunu göster.
+no_permission=Bu komut için permission sahibi değilsin.
+online={0} / {1} oyuncu online
+players=Oyuncular
+group={0}: {1}
+more=ve {0} kişi daha

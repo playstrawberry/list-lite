@@ -1,0 +1,8 @@
+description=Player list: /list shows who is online, by rank.
+permission_use=Use /list.
+command_list=Show who is online.
+no_permission=You do not have permission to use that command.
+online={0} of {1} players online
+players=Players
+group={0}: {1}
+more=and {0} more
